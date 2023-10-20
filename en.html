@@ -17,13 +17,88 @@
 <link rel="stylesheet" href="assets/css/style.min.css" />
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC&family=Tilt+Neon&family=Poppins&display=swap" rel="stylesheet">
 </head>
-<body class="mdui-theme-layout-auto mdui-appbar-with-toolbar animate__animated animate__fadeIn animate__fast">
+<body class="mdui-theme-layout-auto mdui-appbar-with-toolbar animate__animated animate__fadeIn animate__fast mdui-theme-primary-indigo mdui-theme-accent-pink">
+<div class="mdui-drawer mdui-drawer-close" id="main-drawer">
+  <div class="mdui-list" mdui-collapse="{accordion: true}" style="margin-bottom: 76px;">
+    <div class="
+          mdui-collapse-item
+          "
+        >
+          <div class="mdui-collapse-item-header mdui-list-item mdui-ripple">
+            <i class="
+              mdui-list-item-icon
+              mdui-icon
+              material-icons"
+            >layers</i>
+            <div class="mdui-list-item-content">Content</div>
+            <i class="mdui-collapse-item-arrow mdui-icon material-icons">keyboard_arrow_down</i>
+          </div>
+          <div class="mdui-collapse-item-body mdui-list">
+            <a href="index.html"
+                  class="
+                    mdui-list-item
+                    mdui-ripple
+                    "
+                >Mainpage</a><a
+                  href="https://saiba.moe/barank/"
+                  class="
+                    mdui-list-item
+                    mdui-ripple
+                    "
+                >BA Character Sort</a><a
+                  href="https://gekka.top/"
+                  class="
+                    mdui-list-item
+                    mdui-ripple
+                    "
+                >Gekka Sound</a>
+          </div>
+        </div><div class="
+          mdui-collapse-item
+          "
+        >
+          <div class="mdui-collapse-item-header mdui-list-item mdui-ripple">
+            <i class="
+              mdui-list-item-icon
+              mdui-icon
+              material-icons"
+            >contacts</i>
+            <div class="mdui-list-item-content">Contact</div>
+            <i class="mdui-collapse-item-arrow mdui-icon material-icons">keyboard_arrow_down</i>
+          </div>
+          <div class="mdui-collapse-item-body mdui-list">
+            <a
+                  href="https://space.bilibili.com/8755249"
+                  class="
+                    mdui-list-item
+                    mdui-ripple
+                    "
+                >Bilibili</a><a
+                  href="https://twitter.com/khrisma13"
+                  class="
+                    mdui-list-item
+                    mdui-ripple
+                    "
+                >Twitter</a><a
+                  href="https://github.com/Khrisma13"
+                  class="
+                    mdui-list-item
+                    mdui-ripple
+                    "
+                >GitHub</a>
+          </div>
+        </div>
+  </div>
+</div>
 <div class="mdui-container">
 <div class="mdui-appbar mdui-appbar-scroll-hide mdui-shadow-0 mdui-appbar-fixed">
 <div class="mdui-toolbar">
-<a class="mdui-btn mdui-btn-icon" mdui-tooltip="{content: 'Mainpage'}" href="https://saiba.moe">
-<i class="mdui-icon material-icons">home</i>
-</a>
+    <span
+      class="mdui-btn mdui-btn-icon mdui-ripple mdui-ripple-white"
+      mdui-drawer="{target: '#main-drawer', swipe: true}"
+    >
+      <i class="mdui-icon material-icons">menu</i>
+    </span>
 <a class="mdui-typo-title mdui-center title">Khrisma</a>
 <a class="mdui-btn mdui-btn-icon" mdui-tooltip="{content: 'Language'}" mdui-menu="{target: '#language'}">
 <i class="mdui-icon material-icons">language</i>
@@ -87,6 +162,6 @@
 <footer class="mdui-typo-body-1 mdui-text-center">© 2022-2024 Khrisma, Original Script by Akarin</footer>
 </div>
 </div>
-<script src="https://unpkg.com/mdui@1.0.2/dist/js/mdui.min.js" type="c2a909e5cd006bf5f01e3499-text/javascript"></script>
+<script src="https://unpkg.com/mdui@1.0.2/dist/js/mdui.min.js"></script>
 <script src="cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="c2a909e5cd006bf5f01e3499-|49" defer></script></body>
 </html>
